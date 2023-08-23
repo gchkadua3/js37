@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1320px;
+    max-width: 100%;
+    margin: auto;
+}
+
+body {
+    background: #1E28320D;
+}
+
+.upperNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+
+.accountShop {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.account, .shop {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.account p, .shop p {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.horLine {
+    width: 1320px;
+    border-bottom: 2px solid;
+    border-color: #E3E3E3;
+    margin-top: 28px;
+}
+
+.lowerNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+.lowerNav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.textsImg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 56px 0px;
+}
+
+
+
+.topMainTexts h1 {
+    font-size: 74px;
+    font-weight: 300;
+    color: black;
+}
+
+.topMainTexts p {
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    margin-top: 26px;
+    text-transform: capitalize;
+    line-height: 55px;
+}
+
+.svgButton {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E2832;
+    width: 223px;
+    height: 72px;
+    color: white;
+    font-size: 29px;
+    font-weight: 400;
+    margin-top: 56px;
+}
+
+.brand, .bestsel, .newslet, .footer {
+    padding: 56px 0px;
+    background-color: white;
+}
+
+
+
+.brandTextImg {
+    margin-top: 56px;
+    display: flex;
+    
+}
+
+.verTxtImg {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.verTxtImg p {
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    font-size: 34px;
+    font-weight: 400;
+    color: black;
+}
+
+.verTxtImg img {
+    width: 648px;
+    height: 648px;
+    padding: 0;
+
+}
+
+.twoImg, .nextTwoImg {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 20px;
+   
+}
+
+.card-bla{
+    height: 312px;
+    padding: 0px;
+}
+
+.card-bla img {
+    padding: 0px;
+    height: 312px;
+    width: 290px;
+}
+
+.text-cent {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 102px;
+}
+
+.product-nav {
+    display: flex;
+    
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.product-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-row p {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    color: #00000080;
+    cursor: pointer;
+}
+
+.product-row p:hover {
+    color: black;
+}
+
+.card-container, .card-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 312px;
+}
+
+.card img {
+    width: 312px;
+    height: 350px;
+    padding: 0px;
+}
+
+.zara {
+    width: 100%;
+    height: 776px;
+    background-image: url(/js37/imgs/background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.zaratext {
+    margin-left: 56%;
+}
+
+.zaratext p {
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+}
+
+.zaratext button {
+    width:  237px;
+    height:  72px;
+    outline: none;
+    color: black;
+    font-size: 29px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.newslet {
+    background: #1E28320D;
+}
+
+.centrow {
+    margin-top: 50px;
+}
+
+.twoinputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 56px;
+}
+
+#email {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 643px;
+    outline: 0;
+    border-bottom: 2px solid #000000;
+    background: #1E28320D;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+#emsubmit {
+    width: 91px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: #1E28320D;
+    border-bottom: 2px solid #000000;
+    outline: 0;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left-footer p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E2832BF;
+    opacity: 75%;
+    margin-top: 25px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.footer-container {
+    margin-top: 56px;
+}
+
+.footer-info h1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footer-desc {
+    margin-top: 15px;
+}
+
+.footer-desc p {
+    color: #1E2832;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 0px;
+    text-transform: capitalize;
+}
+
+.edge {
+    width: 100%;
+    height: 56px;
+    background: #1E2832;
+    display: flex;
+}
+
+.flexforedge {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexforedge p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+}
+
+#scrolltotop {
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background: #1E2832;
+
+}
