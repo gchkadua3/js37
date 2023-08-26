@@ -36,3 +36,13 @@ axios.get(apiUrl).then(response => {
         cardContainer2.appendChild(card);
     }
 })
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const menuButton = document.querySelector(".menu-button");
+    const menuItems = document.querySelector(".menu-items");
+
+    menuButton.addEventListener("click", function () {
+        menuItems.classList.toggle("active");
+    });
+});

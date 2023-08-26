@@ -11,14 +11,15 @@ body {
 }
 
 #myForm {
-    width: 600px;
-    height: 600px;
+    width: 50%;
+    height: 100vh;
     background-color: gray;
     border-radius: 10px;
     border-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 label {
