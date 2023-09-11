@@ -32,4 +32,11 @@ form.addEventListener('submit', e => {
         window.alert('Password should contain at least 1 alphabetical character, 1 numeric digit, and 1 special character and should be at least 8 characters long');
         console.log(password);
     }
+
+
+    if(usernamePattern.test(username) && passwordPattern.test(password)) {
+        window.location.href = 'home.html';
+    } else {
+        
+    }
 });
